@@ -43,5 +43,20 @@
     "description": "",
     "status": "active",
     "createdAt": "2026-01-03T00:00:00Z"
+  },
+  {
+    "id": "b1792492518219",
+    "title": "SAE",
+    "author": "AE",
+    "category": "Văn học",
+    "type": "new",
+    "price": 1500000,
+    "condition": 100,
+    "cover": "https://tse2.mm.bing.net/th/id/OIP.HTKn6WWzBN4RZCjp_G5xuAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "seller": "SAE",
+    "contact": "0123456789",
+    "description": "SAE",
+    "status": "pending",
+    "createdAt": "2026-10-20T10:35:18.219Z"
   }
 ]
