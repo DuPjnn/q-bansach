@@ -1,0 +1,5 @@
+[
+  {"id":"b1","title":"Dế Mèn phiêu lưu ký","author":"Tô Hoài","category":"Thiếu nhi","type":"used","price":45000,"condition":85,"cover":"https://placehold.co/300x400/d9c9a3/3b2a1e?text=De+Men","seller":"Minh Anh","contact":"0900 000 001","description":"Bản in cũ, giấy ngả vàng nhẹ.","status":"active","createdAt":"2026-01-01T00:00:00Z"},
+  {"id":"b2","title":"Nhà giả kim","author":"Paulo Coelho","category":"Văn học","type":"used","price":60000,"condition":90,"cover":"https://placehold.co/300x400/b8913f/3b2a1e?text=Nha+Gia+Kim","seller":"Hoàng Nam","contact":"Zalo 0900 000 002","description":"","status":"active","createdAt":"2026-01-02T00:00:00Z"},
+  {"id":"b3","title":"Đắc nhân tâm","author":"Dale Carnegie","category":"Kỹ năng sống","type":"new","price":80000,"condition":100,"cover":"https://placehold.co/300x400/2f4a3a/efe3c8?text=Dac+Nhan+Tam","seller":"Thu Hà","contact":"0900 000 003","description":"","status":"pending","createdAt":"2026-01-03T00:00:00Z"}
+]

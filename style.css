@@ -1,0 +1,37 @@
+/* ===== Giao diện Vintage: nâu gỗ – vàng nhạt – giấy ấm ===== */
+:root{--wood:#3b2a1e;--wood-2:#5a4030;--paper:#efe3c8;--paper-2:#f7efdb;--gold:#b8913f;--green:#2f4a3a;--ink:#2a1f17;}
+body{font-family:'Lora',Georgia,serif;color:var(--ink);line-height:1.7;min-height:100vh;
+  background-color:var(--paper);
+  /* hiệu ứng giấy nhám bằng nhiễu SVG */
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .25 0 0 0 0 .15 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");}
+h1,h2,h3,h4,.brand{font-family:'Playfair Display',Georgia,serif;color:var(--wood);}
+.navbar-vintage{background:var(--wood);border-bottom:4px double var(--gold);}
+.navbar-vintage .brand{color:var(--paper-2);font-size:1.5rem;text-decoration:none;font-weight:700;}
+.navbar-vintage .nav-link{color:#e6d5ae;font-size:1.05rem}
+.navbar-vintage .nav-link:hover,.navbar-vintage .nav-link.active{color:#fff;border-bottom:2px solid var(--gold)}
+.page-title{text-align:center;margin:2.2rem 0 1.5rem;font-size:2.4rem}
+.page-title small{display:block;font-size:1rem;font-style:italic;color:var(--wood-2);font-family:'Lora',serif;margin-top:.3rem}
+.btn-vintage{background:var(--green);color:var(--paper-2);border:1px solid var(--wood);border-radius:2px;font-weight:600}
+.btn-vintage:hover{background:var(--wood);color:#fff}
+.btn-outline-vintage{border:1px solid var(--wood);color:var(--wood);border-radius:2px}
+.btn-outline-vintage:hover{background:var(--wood);color:#fff}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+/* Thẻ sách – giống tấm thẻ thư viện */
+.book-card{background:var(--paper-2);border:1px solid #c9b48a;border-radius:3px;box-shadow:4px 4px 0 rgba(59,42,30,.25);height:100%;display:flex;flex-direction:column;overflow:hidden}
+.book-card img{width:100%;aspect-ratio:3/4;object-fit:cover;border-bottom:3px double var(--gold);background:#d9c9a3}
+.book-card .body{padding:.9rem 1rem 1rem;display:flex;flex-direction:column;flex:1}
+.book-card h3{font-size:1.15rem;margin:0}
+.book-card .author{font-style:italic;color:var(--wood-2)}
+.price{font-family:'Playfair Display',serif;font-size:1.3rem;color:#7a2e1d;font-weight:700}
+.cond{font-size:.9rem}
+.cond-bar{height:6px;background:#d9c9a3;border-radius:3px;overflow:hidden}
+.cond-bar span{display:block;height:100%;background:var(--gold)}
+.book-card .btn{margin-top:auto}
+.paper-box{background:var(--paper-2);border:1px solid #c9b48a;box-shadow:5px 5px 0 rgba(59,42,30,.2);padding:1.8rem;border-radius:3px}
+.form-control,.form-select{background:#fffaf0;border:1px solid #b9a577;border-radius:2px}
+.table-vintage{--bs-table-bg:var(--paper-2);}
+.table-vintage thead{background:var(--wood);color:var(--paper-2)}
+.badge-cart{background:var(--gold);color:var(--wood)}
+.toast-box{position:fixed;bottom:1.2rem;right:1.2rem;z-index:2000;max-width:340px}
+footer{margin-top:3rem;padding:1.5rem;text-align:center;color:var(--wood-2);border-top:4px double var(--gold)}
+@media (prefers-reduced-motion:no-preference){.book-card{transition:transform .2s}.book-card:hover{transform:translateY(-3px)}}
